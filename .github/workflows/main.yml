@@ -8,8 +8,8 @@ jobs:
 
     steps:
     - name: Api key security
-      run: echo "Secret is ${{ secrets.API_KEY }}"
+      run: echo "API key is ${{ secrets.API_KEY }}"
     - name: database password
-      run: echo "Secret is ${{ secrets.DB_PASS }}"
+      run: echo "Database password is ${{ secrets.DB_PASS }}"
     - name: environmental variable
-      run: echo "Secret is ${{ secrets.ENV_VAR }}"
+      run: echo "Environment variable is ${{ secrets.ENV_VAR }}"
